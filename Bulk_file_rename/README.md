@@ -1,0 +1,1 @@
+This script searches for files containing old_name_part in their names and replaces it with new_name_part.
