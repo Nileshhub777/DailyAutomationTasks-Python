@@ -7,4 +7,4 @@ def bulk_rename(folder_path, old_name, new_name):
             os.rename(os.path.join(folder_path, file_name), os.path.join(folder_path, new_file_name))
             print(f"Rename the {file_name} to {new_file_name}")
 
-bulk_rename(r'D:\demo_files', 'Sample', 'Example')
+bulk_rename(r'D:\demo_files', 'Example', 'Samples')
