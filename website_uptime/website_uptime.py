@@ -3,17 +3,17 @@ import time
 
 def check_website(url):
     try:
-        response = requests.get(url)
-        if requests.status_codes == 200:
-            print(f"Website {url} is up")
+        response=requests.get(url)
+        if response.status_code == 200:
+            print(f"Website {url} is up and running")
         else:
-            print(f"Website {url} returned status code {response.status_code}" )
+            print(f"Website {url} gave status {response.status_code}")
     except requests.exceptions.RequestException as e:
         print(f"Error checking website {url}: {e}")
 
 
-url='https://www.google.com'
+url = 'https://www.geeksforgeeks.org/hangman-game-python/?ref=lbp'
 
 while True:
     check_website(url)
-    time.sleep(20)
+    time.sleep(10)
