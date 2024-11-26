@@ -9,7 +9,7 @@ def check_website(url):
         else:
             print(f"Website {url} gave status {response.status_code}")
     except requests.exceptions.RequestException as e:
-        print(f"Error checking the website {url}: {e}")
+        print(f"Error checking this website {url}: {e}")
 
 
 url = 'https://www.geeksforgeeks.org/hangman-game-python/?ref=lbp'
