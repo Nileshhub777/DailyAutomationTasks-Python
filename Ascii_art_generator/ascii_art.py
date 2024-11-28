@@ -7,7 +7,7 @@ def generate_ascii_art():
     print("Available fonts:", ", ".join(fonts[:5]), "...and more!")
 
     # Input text and font
-    text = input("Enter the text to convert to ASCII art: ")
+    text = input("Enter the text to be converted to ASCII art: ")
     font = input("Enter font style (or press Enter for default): ").strip()
 
     if font not in fonts:
