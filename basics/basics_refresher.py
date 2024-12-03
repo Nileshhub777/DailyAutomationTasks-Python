@@ -33,3 +33,11 @@ count=0
 while count < 3:
     print("Count is:",count)
     count += 1
+
+# 4 functions
+
+def greet_person(person_name):
+    return f"Hello , {person_name}!"
+
+greeting = greet_person(name)
+print(greeting)
