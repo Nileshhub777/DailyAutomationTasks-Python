@@ -41,3 +41,51 @@ def greet_person(person_name):
 
 greeting = greet_person(name)
 print(greeting)
+
+# 5. File operations
+# Writing to a file
+with open("example.txt", "w") as file:
+    file.write("This is basics file\n")
+    file.write("It covers variables, loops, and file operations\n")
+
+# Reading from a file
+
+with open("example.txt", 'r') as file:
+    content=file.read()
+    print(content)
+
+
+# 6. list Comprehenshions
+numbers=[1,2,3,4,5]
+squared_numbers = [x ** 2 for x in numbers]
+print("Squared Numbers:",squared_numbers)
+
+
+# 7. Exception handling.
+try:
+    result=10/0
+except ZeroDivisionError:
+    print("Division by 0 is not allowed!")
+
+
+# 8 . Simple class and object
+
+class person:
+    def __init__(self, name,age):
+        self.name=name
+        self.age=age
+
+    def introduce(self):
+        return f"My name is : {self.name} and my age is: {self.age}"
+
+Person=person("Alice",23)
+print(Person)
+print(Person.introduce())
+
+
+# 9.Modules and Math
+
+import math
+radius=7
+area=math.pi * (radius ** 2)
+print(f"Area of a circle with radius {radius}: {area}")

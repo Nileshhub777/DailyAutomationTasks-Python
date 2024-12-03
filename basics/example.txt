@@ -1,0 +1,2 @@
+This is basics file
+It covers variables, loops, and file operations
