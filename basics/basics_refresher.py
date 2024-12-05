@@ -58,14 +58,14 @@ with open("example.txt", 'r') as file:
 # 6. list Comprehenshions
 numbers=[1,2,3,4,5]
 squared_numbers = [x ** 2 for x in numbers]
-print("Squared Numbers:",squared_numbers)
+print("Squared Numbers result:",squared_numbers)
 
 
 # 7. Exception handling.
 try:
     result=10/0
 except ZeroDivisionError:
-    print("Division by 0 is not allowed!")
+    print("Division by 0 is not allowed!!")
 
 
 # 8 . Simple class and object
