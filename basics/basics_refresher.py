@@ -78,7 +78,7 @@ class person:
     def introduce(self):
         return f"My name is : {self.name} and my age is: {self.age}"
 
-Person=person("Alice",23)
+Person=person("Alicey",23)
 print(Person)
 print(Person.introduce())
 
