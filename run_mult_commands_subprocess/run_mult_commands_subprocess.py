@@ -5,6 +5,7 @@ commands = [
     "echo 'First command.'",
     "echo 'second command'",
     "echo 'Third command.'"
+    "echo '4th command.'"
  ]
 
 for command in commands:
