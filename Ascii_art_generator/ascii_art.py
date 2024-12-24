@@ -8,7 +8,7 @@ def generate_ascii_art():
 
     # Input text and font
     text = input("Enter the text to be converted to ASCII art: ")
-    font = input("Enter font style (or press Enter for default): ").strip()
+    font = input("Enter the font style (or press Enter for default): ").strip()
 
     if font not in fonts:
         print("Invalid or no font was selected. Using default font.")
