@@ -17,4 +17,4 @@ for student in students:
     print(student)
     print(f"Name: {student['name']}")
     print(f"Total score: {student['total_scores']}")
-    print(f"Total score: {student['percentage']}")
+    print(f"Percentage score: {student['percentage']}")
