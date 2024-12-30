@@ -45,8 +45,8 @@ print(greeting)
 # 5. File operations
 # Writing to a file
 with open("example.txt", "w") as file:
-    file.write("This is basics file\n")
-    file.write("It covers variables, loops, and file operations\n")
+    file.write("This is the sample basics file where it will \n")
+    file.write("covers variables, loops, and file operations\n")
 
 # Reading from a file
 

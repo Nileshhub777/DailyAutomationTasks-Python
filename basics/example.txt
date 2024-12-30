@@ -1,2 +1,2 @@
-This is basics file
-It covers variables, loops, and file operations
+This is the sample basics file where it will 
+covers variables, loops, and file operations
