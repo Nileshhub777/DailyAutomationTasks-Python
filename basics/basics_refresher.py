@@ -88,4 +88,33 @@ print(Person.introduce())
 import math
 radius=7
 area=math.pi * (radius ** 2)
-print(f"Area of the circle with the radius {radius} : {area}")
+print(f"Area of the circle with radius {radius} : {area}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
