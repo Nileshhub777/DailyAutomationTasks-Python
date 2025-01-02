@@ -5,7 +5,7 @@ commands = [
     "echo 'First command.'",
     "echo 'second command'",
     "echo 'Third command.'"
-    "echo '4th command.'"
+    "echo 'Fourth command.'"
  ]
 
 for command in commands:
@@ -14,4 +14,4 @@ for command in commands:
         result=subprocess.run(command, shell=True, check=True,text=True, capture_output=True)
         print(result.stdout)
     except subprocess.CalledProcessError as e:
-        print(f"Command failed.!@! : {e}") 
+        print(f"Command failed.!@! : {e}")
