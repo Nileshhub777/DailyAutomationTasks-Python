@@ -7,7 +7,7 @@ def check_website(url):
         if response.status_code == 200:
             print(f"Website {url} is up and running as usual")
         else:
-            print(f"Website {url} gave status {response.status_code}")
+            print(f"Website {url} returned the status : {response.status_code}")
     except requests.exceptions.RequestException as e:
         print(f"Error checking the website {url}: {e}")
 
