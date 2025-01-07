@@ -1,3 +1,6 @@
+# 1st way
+
+
 def reverse_string(string):
     reversed_str=""
     for char in string:
@@ -10,3 +13,9 @@ print("Original string:", input_string)
 print("reversed string:", reverse_string(input_string))
 
 
+
+ # 2nd Way
+
+def reverse_string2(s):
+     return s[::-1]
+print(reverse_string2("Superb"))
