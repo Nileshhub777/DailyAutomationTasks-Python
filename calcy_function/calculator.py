@@ -54,4 +54,4 @@ while True:
         next_calculation = input("Do you want to do next calculation (yes/no) ? : ")
         if next_calculation == "no":
             break
-        print("This is a Invalid Input")
+        print("This is an Invalid Input")
