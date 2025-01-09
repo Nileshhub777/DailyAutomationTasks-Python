@@ -18,4 +18,4 @@ print("reversed string:", reverse_string(input_string))
 
 def reverse_string2(s):
      return s[::-1]
-print(reverse_string2("Super"))
+print(reverse_string2("Superbman"))
