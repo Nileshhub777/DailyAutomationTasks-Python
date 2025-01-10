@@ -22,7 +22,7 @@ print("Select operation.")
 print("1.Add the numbers")
 print("2.Subtract the numbers")
 print("3.Multiply the numbers")
-print("4.Divide the num")
+print("4.Divide the numbers")
 
 while True:
     # take input from the user
