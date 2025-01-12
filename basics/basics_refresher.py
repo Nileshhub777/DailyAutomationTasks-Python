@@ -78,12 +78,12 @@ class person:
     def introduce(self):
         return f"My name is :  {self.name} and my age is: {self.age}"
 
-Person=person("Alicey",23)
+Person=person("Alice",23)
 print(Person)
 print(Person.introduce())
 
 
-# 9.Modules and Math..
+# 9.Modules and Math.
 
 import math
 radius=7
