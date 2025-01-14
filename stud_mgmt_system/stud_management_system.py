@@ -65,6 +65,6 @@ while True:
         break
     else:
         print('\n')
-        print(':::::::you have entered invalid choice::::::')
+        print('you have entered invalid choice::::::')
 
 
