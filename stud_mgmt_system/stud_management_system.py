@@ -8,7 +8,7 @@ while True:
     print('\n')
     ch = int(input('enter your choice:'))
 
-    # addiing student..........................................................................................................
+    # adiing student..........................................................................................................
 
     if ch == 1:
         n = int(input('How Many No. Of Student To Be Added:'))
@@ -25,7 +25,7 @@ while True:
     # removing student .........................................................................................................
 
     elif ch == 2:
-        rn = int(input('enter roll of student that you want to delete:'))
+        rn = int(input('enter roll_no of student that you want to delete:'))
         del stud[rn]
         print('\n')
         print('dictinary after removing desire student:', stud)
