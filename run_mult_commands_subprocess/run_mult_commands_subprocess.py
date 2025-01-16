@@ -4,8 +4,8 @@ import os
 commands = [
     "echo 'First command.'",
     "echo '2nd command'",
-    "echo '3rd command.'"
-    "echo '4th command.'"
+    "echo 'Third command.'"
+    "echo 'Fourth command.'"
  ]
 
 for command in commands:
