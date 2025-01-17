@@ -3,7 +3,7 @@ import os
 
 commands = [
     "echo 'First command.'",
-    "echo '2nd command'",
+    "echo 'Second command'",
     "echo 'Third command.'"
     "echo 'Fourth command.'"
  ]
