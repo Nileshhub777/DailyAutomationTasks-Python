@@ -10,7 +10,7 @@ commands = [
 
 for command in commands:
     try:
-        print(f"Executing: {command}")
+        print(f"Executing command: {command}")
         result=subprocess.run(command, shell=True, check=True,text=True, capture_output=True)
         print(result.stdout)
     except subprocess.CalledProcessError as e:
