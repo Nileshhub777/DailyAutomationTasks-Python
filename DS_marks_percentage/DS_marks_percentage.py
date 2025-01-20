@@ -1,7 +1,7 @@
 students = [
-    {"name": "Alice", "scores": [85, 92, 78, 88, 91]},  # Student 1
-    {"name": "Bobby", "scores": [75, 80, 70, 85, 90]},    # Student 2
-    {"name": "charmy", "scores": [95, 88, 84, 92, 85]}  # Student 3
+    {"name": "Alice", "scores": [85, 92, 78, 88, 91,98]},  # Student 1
+    {"name": "Bobby", "scores": [75, 80, 70, 85, 90,89]},    # Student 2
+    {"name": "charmy", "scores": [95, 88, 84, 92, 85,87]}  # Student 3
 ]
 
 def calculate_scores_and_percentage(students):
