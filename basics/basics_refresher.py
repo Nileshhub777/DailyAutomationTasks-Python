@@ -90,6 +90,20 @@ radius=7
 area=math.pi * (radius ** 2)
 print(f"Area of the circle with the radius {radius} : {area}")
 
+# 10. Check number positive,negative or zero with function
+
+def checknumber(a):
+    if number > 0:
+        return ("Postive number")
+    elif number < 0:
+        return ('Negative number')
+    else:
+        return ("Number is zero")
+
+number=float(input("Enter the number:"))
+
+result=checknumber(number)
+print(result)
 
 
 
