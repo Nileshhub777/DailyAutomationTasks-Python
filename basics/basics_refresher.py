@@ -98,7 +98,7 @@ def checknumber(a):
     elif number < 0:
         return ('Negative number')
     else:
-        return ("Number is 0")
+        return ("Number is Zero")
 
 number=float(input("Enter the number:"))
 
