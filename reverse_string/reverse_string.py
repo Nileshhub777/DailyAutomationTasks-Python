@@ -7,7 +7,7 @@ def reverse_string(string):
         reversed_str=char + reversed_str
     return reversed_str
 
-input_string="SuperSpider"
+input_string="Spiderman"
 print("Original string:", input_string)
 print("reversed string:", reverse_string(input_string))
 
