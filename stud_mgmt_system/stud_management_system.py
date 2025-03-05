@@ -1,7 +1,7 @@
 stud = {}
 while True:
     print('\n')
-    print('1: Add Student')
+    print('1:Adding the Student')
     print('2:Remove Student')
     print('3:Search Student')
     print('5:Exit')
