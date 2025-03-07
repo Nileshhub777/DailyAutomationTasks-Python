@@ -15,9 +15,9 @@ while True:
         while n > 0:
             roll = int(input('enter student roll number:'))
             stud[roll] = {}
-            stud[roll]['name'] = input('enter the student name:')
+            stud[roll]['name'] = input('Enter the student name:')
             stud[roll]['marks'] = {}
-            stud[roll]['marks']['eng'] = int(input('enter english marks:'))
+            stud[roll]['marks']['eng'] = int(input('Enter english marks:'))
             n -= 1
         print('\n')
         print('student data:', stud)
