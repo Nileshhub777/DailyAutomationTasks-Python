@@ -2,10 +2,10 @@ import subprocess
 import os
 
 commands = [
-    "echo 'First command.'",
-    "echo 'Second command'",
+    "echo '1st command.'",
+    "echo '2nd command'",
     "echo 'Third command.'"
-    "echo 'Fourth command.'"
+    "echo 'fourth command.'"
  ]
 
 for command in commands:
