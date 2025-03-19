@@ -94,9 +94,9 @@ print(f"Area of the circle with the radius {radius} : {area}")
 
 def checknumber(a):
     if number > 0:
-        return ("+ve number")
+        return ("positive number")
     elif number < 0:
-        return ('-ve number')
+        return ('Negative number')
     else:
         return ("Number is Zero")
 
