@@ -88,7 +88,7 @@ print(Person.introduce())
 import math
 radius=7
 area=math.pi * (radius ** 2)
-print(f"Area of the circle with the radius {radius} : {area}")
+print(f"Area of the circle with the radius {radius} is: {area}")
 
 # 10. Check number positive,negative or zero with function
 
