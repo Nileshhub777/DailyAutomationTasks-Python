@@ -10,7 +10,7 @@ def generate_ascii_art():
 
     if font not in fonts:
         print("Invalid or no font was selected. Using the default font.")
-        font = "standard"
+        font = "Standard"
 
     # Generate ASCII art
     figlet = Figlet(font=font)
