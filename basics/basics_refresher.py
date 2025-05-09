@@ -106,7 +106,9 @@ result=checknumber(number)
 print(result)
 
 
-
+#11) print the unique char
+str1="HiHello"
+print([c for c in str1 if str1.count(c)==1])
 
 
 
