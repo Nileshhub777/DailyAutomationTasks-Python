@@ -9,7 +9,7 @@ def generate_ascii_art():
     font = input("Enter the font style or press the Enter key for the default : ").strip()
 
     if font not in fonts:
-        print("Invalid or no font was selected. Using the default font.")
+        print("Invalid or there was no font selected. Using the default font.")
         font = "Standard"
 
     # Generate ASCII art
