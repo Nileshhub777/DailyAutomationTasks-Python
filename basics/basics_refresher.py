@@ -107,8 +107,11 @@ print(result)
 
 
 #11) print the unique char
-str1="HiieeehellolHello"
-print([c for c in str1 if str1.count(c)==1])
+str1="HieeehellolHello"
+print([x for x in str1 if str1.count(x)==1])
+
+
+
 
 
 
