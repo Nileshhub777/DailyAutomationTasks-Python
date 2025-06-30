@@ -1,6 +1,6 @@
 students = [
     {"name": "Alice", "scores": [85, 92, 78, 88, 91,99]},  # Student 1
-    {"name": "Bobby", "scores": [75, 80, 70, 85, 90,90]},    # Student 2
+    {"name": "Bobbyu", "scores": [75, 80, 70, 85, 90,90]},    # Student 2
     {"name": "Charmyu", "scores": [99, 88, 84, 92, 85,88]}  # Student 3
 ]
 
