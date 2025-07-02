@@ -34,7 +34,7 @@ while True:
             num1 = float(input("Enter the first number: "))
             num2 = float(input("Enter the second number: "))
         except ValueError:
-            print("Invalid input. Please enter a number.")
+            print("Invalid input... Please enter the number.")
             continue
 
         if choice == '1':
