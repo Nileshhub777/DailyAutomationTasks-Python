@@ -5,6 +5,7 @@ def reverse_string(string):
     reversed_str=""
     for char in string:
         reversed_str=char + reversed_str
+        print(reversed_str)
     return reversed_str
 
 input_string="Spiderman"
