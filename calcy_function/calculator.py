@@ -31,8 +31,8 @@ while True:
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
         try:
-            num1 = float(input("Enter the first number: "))
-            num2 = float(input("Enter the second number: "))
+            num1 = float(input("Enter the 1st number: "))
+            num2 = float(input("Enter the 2nd number: "))
         except ValueError:
             print("Invalid input. Please enter the valid correct7 number.")
             continue
