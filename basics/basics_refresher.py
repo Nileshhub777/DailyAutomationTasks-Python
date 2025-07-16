@@ -107,7 +107,7 @@ print(result)
 
 
 #11) print the unique char
-str1="HiehellolHello"
+str1="HieeeehellolHelloHiiHello"
 print([x for x in str1 if str1.count(x)==1])
 
 
