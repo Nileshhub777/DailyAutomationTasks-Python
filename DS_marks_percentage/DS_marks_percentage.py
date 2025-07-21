@@ -8,8 +8,8 @@ def calculate_scores_and_percentage(students):
     for student in students:
         total_scores= sum(student["scores"])
         percentage=(total_scores/500) * 100
-        student["Totalscores"]=total_scores
-        student["percentage"]=percentage
+        student["Total_scores"]=total_scores
+        student["Percentage"]=percentage
 
 calculate_scores_and_percentage(students)
 
