@@ -6,10 +6,10 @@ def generate_ascii_art():
 
     # Input text and font
     text = input("Enter the text to be converted to the  ASCII art: ")
-    font = input("Enter the font style or press the Enter key for the default : ").strip()
+    font = input("Enter the font style or press the Enter key for the default option : ").strip()
 
     if font not in fonts:
-        print("Invalid or there was none of the  font selected. Using the default font.")
+        print("Invalid Font or there was none of the  font selected. Using the default font.")
         font = "Standard"
 
     # Generate ASCII art
