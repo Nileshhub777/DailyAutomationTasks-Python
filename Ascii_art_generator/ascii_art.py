@@ -15,7 +15,7 @@ def generate_ascii_art():
     # Generate ASCII art
     figlet = Figlet(font=font)
     ascii_art = figlet.renderText(text)
-    print("\nYour Converted the ASCII Art. !!:\n")
+    print("\nYour Converted ASCII Art is ready. !!:\n")
     print(ascii_art)
 
 
