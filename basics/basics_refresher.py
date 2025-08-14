@@ -94,7 +94,7 @@ print(f"Area of the circle with the radius {radius} is: {area}")
 
 def checknumber(a):
     if number > 0:
-        return ("+ve number")
+        return ("Positive number")
     elif number < 0:
         return ('-ve number')
     else:
@@ -107,7 +107,7 @@ print(result)
 
 
 #11) print the unique char
-str1="HieeehellolHelloHiiHello"
+str1="HieeeeerhellolHelloHiiHello"
 print([x for x in str1 if str1.count(x)==1])
 
 
