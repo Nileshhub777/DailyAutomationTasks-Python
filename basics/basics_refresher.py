@@ -58,7 +58,7 @@ with open("example.txt", 'r') as file:
 # 6. list Comprehenshions
 numbers=[1,2,3,4,5]
 squared_numbers = [x ** 2 for x in numbers]
-print("Squared Numbers result:",squared_numbers)
+print("Squared numbers result is :",squared_numbers)
 
 
 # 7. Exception handling.
