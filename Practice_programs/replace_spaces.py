@@ -1,0 +1,1 @@
+print("Python is very fun language man ! !.".replace(" ","^" ))
