@@ -1,1 +1,1 @@
-print("Python is very funny language man ! !.".replace(" ","^" ))
+print("Python is very good language man ! !.".replace(" ","^" ))
